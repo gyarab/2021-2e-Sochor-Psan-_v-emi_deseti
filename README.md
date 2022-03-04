@@ -1,1 +1,1 @@
-# 2021-2e-Sochor-Psan-_vsemi_deseti
+# 2021-2e-Sochor-Psani_vsemi_deseti
