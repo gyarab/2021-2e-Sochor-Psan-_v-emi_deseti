@@ -29,5 +29,6 @@
          </font>
       </Label>
       <Label layoutX="380.0" layoutY="456.0" prefHeight="18.0" prefWidth="190.0" textFill="RED" />
+      <Button fx:id="btn7" blendMode="DARKEN" layoutX="813.0" layoutY="227.0" mnemonicParsing="false" onAction="#onButtonClick7" style="-fx-background-color: #c945ba;" text="Připoj" />
    </children>
 </AnchorPane>

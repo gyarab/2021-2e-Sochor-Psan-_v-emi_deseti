@@ -9,13 +9,15 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.stage.Stage;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
 import java.util.Objects;
 
 public class HelloController {
     @FXML
     private Label Hlavnímenu;
-    //xdddddd
     @FXML
     ProgressBar nacitac1;
     @FXML
@@ -24,6 +26,7 @@ public class HelloController {
     Button btn2;
     @FXML
     Button load1;
+
 
     @FXML
     public void onButtonClick1() throws Exception {
