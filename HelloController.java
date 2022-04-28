@@ -15,6 +15,7 @@ import java.util.Objects;
 public class HelloController {
     @FXML
     private Label Hlavnímenu;
+    //xdddddd
     @FXML
     ProgressBar nacitac1;
     @FXML
