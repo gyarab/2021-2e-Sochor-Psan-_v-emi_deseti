@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="600.0" prefWidth="1236.0" style="-fx-background-color: #e0995c;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rocnikovka.TrenovaniController">
+   <children>
+      <Button fx:id="btn3" blendMode="DARKEN" layoutX="14.0" layoutY="477.0" mnemonicParsing="false" onAction="#onButtonClick3" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: #c945ba;" text="Zpět" />
+      <TextArea fx:id="psani" layoutX="43.0" layoutY="257.0" onKeyPressed="#onClick1" onMouseClicked="#onMouseClicked1" prefHeight="186.0" prefWidth="870.0" promptText="sem piš..." style="-fx-border-color: grey;">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <ProgressIndicator layoutX="914.0" layoutY="475.0" progress="0.0" />
+      <ListView editable="true" layoutX="100.0" layoutY="486.0" prefHeight="8.0" prefWidth="799.0" style="-fx-background-color: red;" />
+      <TextArea fx:id="txt1" editable="false" layoutX="43.0" layoutY="28.0" prefHeight="186.0" prefWidth="870.0" style="-fx-background-color: #616391; -fx-border-color: grey;" text="klikni do pole piš sem pro zobrazení textu">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <Label fx:id="cas1" layoutX="394.0" layoutY="229.0" onKeyPressed="#onKey1" prefHeight="18.0" prefWidth="162.0" text="čas" />
+      <Button fx:id="btn5" blendMode="DARKEN" layoutX="681.0" layoutY="226.0" mnemonicParsing="false" onAction="#onButtonClick5" style="-fx-background-color: #c945ba;" text="Reset" />
+      <Label fx:id="chyb1" layoutX="80.0" layoutY="230.0" prefHeight="18.0" prefWidth="131.0" text="Počet chyb:" />
+      <Button fx:id="btn6" blendMode="DARKEN" layoutX="743.0" layoutY="226.0" mnemonicParsing="false" onAction="#onButtonClick6" style="-fx-background-color: #c945ba;" text="Nový text" />
+      <Label fx:id="score1" layoutX="336.0" layoutY="269.0" prefHeight="53.0" prefWidth="278.0">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn7" blendMode="DARKEN" layoutX="825.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonClick7" prefHeight="26.0" prefWidth="67.0" style="-fx-background-color: #c945ba;" text="Skore" />
+      <Label layoutX="380.0" layoutY="456.0" prefHeight="18.0" prefWidth="190.0" text="Čím vyšší skore tím horší výsledek!!" textFill="RED" />
+      <Button fx:id="btn8" blendMode="DARKEN" disable="true" layoutX="570.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonClick8" style="-fx-background-color: #c945ba;" text="Text generace " visible="false" />
+   </children>
+</AnchorPane>
